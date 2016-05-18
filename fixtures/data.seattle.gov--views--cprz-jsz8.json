@@ -1,0 +1,1926 @@
+{
+  "id": "cprz-jsz8",
+  "name": "City of Seattle Events",
+  "averageRating": 0,
+  "createdAt": 1373932331,
+  "description": "",
+  "displayType": "table",
+  "downloadCount": 1248,
+  "indexUpdatedAt": 1463303868,
+  "newBackend": false,
+  "numberOfComments": 0,
+  "oid": 20929380,
+  "publicationAppendEnabled": false,
+  "publicationDate": 1463301845,
+  "publicationGroup": 979176,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1463301829,
+  "rowsUpdatedBy": "pfbu-yuv5",
+  "tableId": 10738923,
+  "totalTimesRated": 0,
+  "viewCount": 345,
+  "viewLastModified": 1463301845,
+  "viewType": "tabular",
+  "columns": [
+    {
+      "id": 254922184,
+      "name": "Event",
+      "dataTypeName": "text",
+      "description": "Event",
+      "fieldName": "event",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 12219378,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 3185,
+        "smallest": "`The Transformation of Late Life Care' featuring Dr. Ira Byock",
+        "null": 0,
+        "largest": "ZY Qigong ?The Heart Approach? ? All Levels Workshop",
+        "top": [
+          {
+            "count": 20,
+            "item": "Posing Beauty in African American Culture"
+          },
+          {
+            "count": 19,
+            "item": "Wild Nearby"
+          },
+          {
+            "count": 18,
+            "item": "Toys of the '50s, '60s and '70s"
+          },
+          {
+            "count": 17,
+            "item": "Summer Language and Leadership Camp"
+          },
+          {
+            "count": 16,
+            "item": "Keys to the Kingdom: Sea Stars and Our Coastal Environment"
+          },
+          {
+            "count": 15,
+            "item": "Living Small: Ideas for Living in the City"
+          },
+          {
+            "count": 14,
+            "item": "Is SHE Ready? Free College & Career Readiness"
+          },
+          {
+            "count": 13,
+            "item": "Unbind the Weed!"
+          },
+          {
+            "count": 12,
+            "item": "Latin Cooking Classes at El Centro de la Raza!"
+          },
+          {
+            "count": 11,
+            "item": "Open Call for Performance/Live Art"
+          },
+          {
+            "count": 10,
+            "item": "SASS: SANCA's Annual Spring Showcase"
+          },
+          {
+            "count": 9,
+            "item": "The Danger Games: An Improvised Hero's Journey"
+          },
+          {
+            "count": 8,
+            "item": "Jello Underground"
+          },
+          {
+            "count": 7,
+            "item": "Dragon Boating"
+          },
+          {
+            "count": 6,
+            "item": "Magnuson Series"
+          },
+          {
+            "count": 5,
+            "item": "An Improvised Hip Hopera"
+          },
+          {
+            "count": 4,
+            "item": "NW Folklife Festival seeking Volunteers"
+          },
+          {
+            "count": 3,
+            "item": "Renegade Craft Fair"
+          },
+          {
+            "count": 2,
+            "item": "Sundowner Sips & Stories"
+          },
+          {
+            "count": 1,
+            "item": "Superheroes vs. Villains"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922185,
+      "name": "Start time",
+      "dataTypeName": "calendar_date",
+      "description": "Start time",
+      "fieldName": "start_time",
+      "position": 2,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 12219379,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2856,
+        "smallest": "2016-05-15T00:00:00",
+        "null": 329,
+        "largest": "2018-02-13T16:00:00",
+        "top": [
+          {
+            "count": 20,
+            "item": "2016-05-24T19:00:00"
+          },
+          {
+            "count": 19,
+            "item": "2016-05-20T19:00:00"
+          },
+          {
+            "count": 18,
+            "item": "2016-05-21T10:00:00"
+          },
+          {
+            "count": 17,
+            "item": "2016-06-11T10:00:00"
+          },
+          {
+            "count": 16,
+            "item": "2016-06-18T00:00:00"
+          },
+          {
+            "count": 15,
+            "item": "2016-06-18T10:00:00"
+          },
+          {
+            "count": 14,
+            "item": "2016-06-25T10:00:00"
+          },
+          {
+            "count": 13,
+            "item": "2016-07-09T10:00:00"
+          },
+          {
+            "count": 12,
+            "item": "2016-10-22T09:30:00"
+          },
+          {
+            "count": 11,
+            "item": "2016-10-29T10:00:00"
+          },
+          {
+            "count": 10,
+            "item": "2016-11-11T17:00:00"
+          },
+          {
+            "count": 9,
+            "item": "2016-11-12T10:00:00"
+          },
+          {
+            "count": 8,
+            "item": "2016-11-26T10:00:00"
+          },
+          {
+            "count": 7,
+            "item": "2016-12-09T17:00:00"
+          },
+          {
+            "count": 6,
+            "item": "2016-12-10T10:00:00"
+          },
+          {
+            "count": 5,
+            "item": "2016-12-28T10:00:00"
+          },
+          {
+            "count": 4,
+            "item": "2017-01-13T17:00:00"
+          },
+          {
+            "count": 3,
+            "item": "2017-02-10T17:00:00"
+          },
+          {
+            "count": 2,
+            "item": "2017-03-10T17:00:00"
+          },
+          {
+            "count": 1,
+            "item": "2017-04-14T17:00:00"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922186,
+      "name": "End time",
+      "dataTypeName": "calendar_date",
+      "description": "End time",
+      "fieldName": "end_time",
+      "position": 3,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 12219380,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2413,
+        "smallest": "2016-05-15T14:00:00",
+        "null": 772,
+        "largest": "2018-02-13T17:30:00",
+        "top": [
+          {
+            "count": 20,
+            "item": "2016-07-10T17:00:00"
+          },
+          {
+            "count": 19,
+            "item": "2016-07-17T19:30:00"
+          },
+          {
+            "count": 18,
+            "item": "2016-07-23T12:30:00"
+          },
+          {
+            "count": 17,
+            "item": "2016-07-30T14:00:00"
+          },
+          {
+            "count": 16,
+            "item": "2016-08-04T22:00:00"
+          },
+          {
+            "count": 15,
+            "item": "2016-08-06T16:00:00"
+          },
+          {
+            "count": 14,
+            "item": "2016-08-06T12:30:00"
+          },
+          {
+            "count": 13,
+            "item": "2016-08-12T19:00:00"
+          },
+          {
+            "count": 12,
+            "item": "2016-08-20T12:30:00"
+          },
+          {
+            "count": 11,
+            "item": "2016-09-03T12:30:00"
+          },
+          {
+            "count": 10,
+            "item": "2016-09-09T19:00:00"
+          },
+          {
+            "count": 9,
+            "item": "2016-09-10T11:30:00"
+          },
+          {
+            "count": 8,
+            "item": "2016-09-17T12:30:00"
+          },
+          {
+            "count": 7,
+            "item": "2016-10-01T12:00:00"
+          },
+          {
+            "count": 6,
+            "item": "2016-10-01T12:30:00"
+          },
+          {
+            "count": 5,
+            "item": "2016-10-14T19:00:00"
+          },
+          {
+            "count": 4,
+            "item": "2016-10-15T12:30:00"
+          },
+          {
+            "count": 3,
+            "item": "2016-10-22T15:00:00"
+          },
+          {
+            "count": 2,
+            "item": "2016-10-29T12:30:00"
+          },
+          {
+            "count": 1,
+            "item": "2016-11-11T19:00:00"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922187,
+      "name": "Building Name/Room Number",
+      "dataTypeName": "text",
+      "description": "Building Name/Room Number",
+      "fieldName": "building_name_room_number",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 12219381,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 871,
+        "smallest": ", Classroom 1 or 2 ",
+        "null": 2314,
+        "largest": "Waterfall Room ",
+        "top": [
+          {
+            "count": 20,
+            "item": "doesliveart.wordpress.com"
+          },
+          {
+            "count": 19,
+            "item": "Events Space "
+          },
+          {
+            "count": 18,
+            "item": "Seattle Vocational Institute (SVI), Classroom 102/103 "
+          },
+          {
+            "count": 17,
+            "item": "Filipino Community Center, Quijance Room "
+          },
+          {
+            "count": 16,
+            "item": "Isaacson Classroom "
+          },
+          {
+            "count": 15,
+            "item": ", Classroom 1 or 2 "
+          },
+          {
+            "count": 14,
+            "item": "Seattle Indian Health Board Conference Room "
+          },
+          {
+            "count": 13,
+            "item": "Providence Peter Claver House "
+          },
+          {
+            "count": 12,
+            "item": "Kitchen "
+          },
+          {
+            "count": 11,
+            "item": "Room 370 "
+          },
+          {
+            "count": 10,
+            "item": "Seattle City Hall, Floor 2"
+          },
+          {
+            "count": 9,
+            "item": "Boards Commission Conference Room L-280 "
+          },
+          {
+            "count": 8,
+            "item": "Upper Level Conference Room"
+          },
+          {
+            "count": 7,
+            "item": "Room L280 "
+          },
+          {
+            "count": 6,
+            "item": "Room 4901 "
+          },
+          {
+            "count": 5,
+            "item": "City Hall, Room L280 "
+          },
+          {
+            "count": 4,
+            "item": "409 Maynard Ave. S."
+          },
+          {
+            "count": 3,
+            "item": "Seattle Municipal Tower, 700 5th Ave, (5th and Columbia) in the 27th floor conference room (2750, to the right off elevators) "
+          },
+          {
+            "count": 2,
+            "item": "Bertha Knight Landes "
+          },
+          {
+            "count": 1,
+            "item": "Meet behind the Greenhouse under a big white tent "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922188,
+      "name": "Website",
+      "dataTypeName": "url",
+      "description": "Website",
+      "fieldName": "website",
+      "position": 5,
+      "renderTypeName": "url",
+      "tableColumnId": 12219382,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 3000,
+        "smallest": {
+          "url": "http://21pilotstour.com/"
+        },
+        "null": 185,
+        "largest": {
+          "url": "https://www.portseattle.org/Marinas/Shilshole-Bay-Marina/Pages/National-Marina-Day.aspx"
+        },
+        "top": [
+          {
+            "count": 20,
+            "item": {
+              "url": "http://www.naamnw.org/"
+            }
+          },
+          {
+            "count": 19,
+            "item": {
+              "url": "https://www.aiaseattle.org/livingsmall/"
+            }
+          },
+          {
+            "count": 18,
+            "item": {
+              "url": "http://www.burkemuseum.org/wildnearby"
+            }
+          },
+          {
+            "count": 17,
+            "item": {
+              "url": "http://www.mohai.org/toys"
+            }
+          },
+          {
+            "count": 16,
+            "item": {
+              "url": "https://oneworldnow.org/programs/summer-language-camp/"
+            }
+          },
+          {
+            "count": 15,
+            "item": {
+              "url": "http://www.seattle.gov/neighborhoods/preservation/agendas.htm"
+            }
+          },
+          {
+            "count": 14,
+            "item": {
+              "url": "http://www.yougrowgirl.org/mentor/"
+            }
+          },
+          {
+            "count": 13,
+            "item": {
+              "url": "http://www.elcentrodelaraza.org/events/event/tamale-making-classes/"
+            }
+          },
+          {
+            "count": 12,
+            "item": {
+              "url": "http://www.nps.gov/klse/index.htm"
+            }
+          },
+          {
+            "count": 11,
+            "item": {
+              "url": "http://depts.washington.edu/uwbg/education/Youth/parent.shtml"
+            }
+          },
+          {
+            "count": 10,
+            "item": {
+              "url": "http://www.mohai.org/"
+            }
+          },
+          {
+            "count": 9,
+            "item": {
+              "url": "http://www.siff.net/education"
+            }
+          },
+          {
+            "count": 8,
+            "item": {
+              "url": "https://doesliveart.wordpress.com/"
+            }
+          },
+          {
+            "count": 7,
+            "item": {
+              "url": "http://www.brownpapertickets.com/event/2510253"
+            }
+          },
+          {
+            "count": 6,
+            "item": {
+              "url": "https://goo.gl/qEh4Bw"
+            }
+          },
+          {
+            "count": 5,
+            "item": {
+              "url": "http://www.brownpapertickets.com/event/2524175"
+            }
+          },
+          {
+            "count": 4,
+            "item": {
+              "url": "http://www.seattleflyingdragons.org/"
+            }
+          },
+          {
+            "count": 3,
+            "item": {
+              "url": "http://www.magnusonseries.org/"
+            }
+          },
+          {
+            "count": 2,
+            "item": {
+              "url": "http://www.unexpectedproductions.org/show/Hiphopera"
+            }
+          },
+          {
+            "count": 1,
+            "item": {
+              "url": "http://www.nwfolklife.org/festival2016/participate/volunteer-festival/"
+            }
+          }
+        ]
+      },
+      "format": {},
+      "subColumnTypes": [
+        "url",
+        "description"
+      ]
+    },
+    {
+      "id": 254922189,
+      "name": "Event Description/Agenda",
+      "dataTypeName": "text",
+      "description": "Event Description/Agenda",
+      "fieldName": "event_description_agenda",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 12219383,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2720,
+        "smallest": "\"Flower Power\" is the tour theme for the month of May. Flowers aren&#39;t just pretty faces, but so much more. Learn about their morphology, different methods of pollination and different pollinators. And enjoy the amazing variety of blossoms in our collection. ",
+        "null": 465,
+        "largest": "Your suggestions inspire a totally improvised, totally unique show that combines improvised rap and R&B singing, hip-hop dancing and lots of laughter. Trapped in a Black Box: An Improvised Hip Hopera is a high-energy show that marries the best of improv comedy and freestyle rap to tell a hilarious narrative, usually featuring a hero&#39;s rise, fall and redemption, mixed with villains, crimes, betrayals, sex, love and a whole lot of fun. And since it&#39;s all written on the spot, it&#39;s never the same show twice.<br /> <br /> \"...genuinely funny.\"<br /> The Stranger 5/14/2014 ",
+        "top": [
+          {
+            "count": 20,
+            "item": "Please join the Klondike Gold Rush National Historical Park as we open our new temporary exhibit, Keys to the Kingdom: Sea Stars and Our Coastal Environment. Learn about the amazing sea stars that populate the Pacific coast, the mysterious disease that has been attacking the species, and how you can play a part in the future of sea stars. This exhibit is designed and created by graduate students at the University of Washington&#39;s Museology Program. "
+          },
+          {
+            "count": 19,
+            "item": "You&#8217;re posing for the camera. How do you want to be seen? Distinguished. Thoughtful. Stylish. Outrageous. Celebratory. Proud.<br /> <br /> In Posing Beauty, a century of photographs by a wide range of image-makers&#8212;photojournalists, artists, men, and women&#8212;explore beauty and highlight how we see ourselves and are seen by others.<br /> <br /> Among the many distinguished photographers represented in this group exhibition are Anthony Barboza, Sheila Pree Bright, Leonard Freed, Charles &#8220;Teenie&#8221; Harris, Russell Lee, Jamel Shabazz, Hank Willis Thomas, Mickalene Thomas, Carrie Mae Weems, and Ernest C. Withers.<br /> <br /> Join us for a celebratory opening on April 29 (6-8pm). Be bold and beautiful! "
+          },
+          {
+            "count": 18,
+            "item": "As Seattle grows, how can housing design keep pace with the evolving ways we are living in cities? Is small housing a viable option? Can smaller spaces make for better living? This exhibit by 2015 Emerging Professionals Travel Scholarship Recipient Garrett Reynolds, explores micro-living spaces in dense urban environments in Copenhagen, New York, Stockholm, and Tokyo. "
+          },
+          {
+            "count": 17,
+            "item": "Few places on earth rival the rugged beauty and biological diversity of Washington state&#8217;s North Cascades wilderness. Immerse yourself in the sights, sounds and stories of the North Cascades&#39; people, plants and animals at the Burke&#8217;s latest exhibit,&#160;Wild Nearby. "
+          },
+          {
+            "count": 16,
+            "item": "Gumby. Barbie. Slinky. Mr. Potato Head. Wham-O. Spirograph. These popular toys capture the craziness, joy, and sheer fun of being a kid. But beneath those nutty names are rich veins of nostalgia, memory, and history. Channel your inner child during the West Coast premiere of Toys of the &#8216;50s, &#8216;60s and &#8216;70s. #MOHAItoys "
+          },
+          {
+            "count": 15,
+            "item": "The Summer Language and Leadership Camp will begin on July 11th - July 29th. With classes from 9AM - 3PM weekdays only. The camp will offer Chinese and Arabic language classes, cultural workshops, local cultural field trips. "
+          },
+          {
+            "count": 14,
+            "item": "Let us help you get to the next level by identifying and gaining the tools you need ot achieve academic and career success!<br /> <br /> Work alongside our resourceful mentors to identify academic aspirations and take active steps toward becoming college bound. Develop relevant job-training skills and explore new career opportunities.<br /> <br /> For girls, ages 13-17<br /> Wednesdays and Thursdays<br /> 2-6pm "
+          },
+          {
+            "count": 13,
+            "item": "Join us for a restoration work party at Me-Kwa-Mooks - See website for important details on what to bring and where to meet. "
+          },
+          {
+            "count": 12,
+            "item": "Class will begin promptly at 10:00 AM in the kitchen at El Centro de la Raza. All cooking supplies and ingredients will be provided, but please bring your own apron. The class focuses on the traditional preparation of authentic traditional latin dishes. The dishes are prepared in the handmade and traditional fashion using cultural ingredients. No substitutions can be made, but after the class we can provide an alternate vegetarian recipe upon request. We look forward to meeting you! "
+          },
+          {
+            "count": 11,
+            "item": "OneWorld Now! is pleased to offer our 10th annual Summer Language and Leadership Camp offering classes in Chinese and Arabic. No prior language experience is necessary. The program will also include cultural music and dance workshops, art and calligraphy workshops, and field trips to local cultural sites. Classes will take place weekdays only for six hours located in the Impact Hub near Pioneer Square. "
+          },
+          {
+            "count": 10,
+            "item": "This open call is looking for contemporary performance around the themes Body, Risk, and Future; from conversations, one-on-one interactions, durational works, pieces performed to and with the audience, and more. The timing coincides with the Seattle Art Fair in order to amplify the importance of Performance in Contemporary Art.<br /> <br /> The gallery will host a noontime meal each of the three days as a way to gather the artists and audience, nourish them, and network. After the meal will be discussions themed around Performance Art. In the afternoons and evenings there will be a variety of performances programmed.<br /> <br /> SOIL exists as an alternative venue for artists and curators to exhibit, develop, and advance their work. We are committed to exhibiting art of diverse media and content. Morgan Cahn, a current SOIL member, is curating this exhibition and performance series.<br /> <br /> SOIL gallery is the main hub (112 3rd Ave S, Seattle, WA 98104). Works that take place outside the gallery or depart from the gallery will also be considered. SOIL gallery is ADA accessible. "
+          },
+          {
+            "count": 9,
+            "item": "Event Details<br /> What: Jello Underground<br /> Where: Evolv Brawl Room, 1317 Republican Street, Seattle, WA 98109<br /> When: Saturday, April 2, 2016<br /> Time: Doors at 8pm, Show at 9pm<br /> Tickets: <a href=\"http://www.brownpapertickets.com/event/2524175\" target=\"_blank\" title=\"http://www.brownpapertickets.com/event/2524175\">www.brownpapertickets.com&#8230;</a><br /> Price: $15 ADV, $20 DOS "
+          },
+          {
+            "count": 8,
+            "item": "The Seattle Flying Dragon Boat Club (<a href=\"http://www.seattleflyingdragons.org/\" target=\"_blank\">www.seattleflyingdragons.org</a>) practices on South Lake Union 4 times a week, all year. The first 3 practices are FREE. To join the club is $100 per year.<br /> <br /> We meet in the parking lot of Kenmore Air just north of South Lake Union Park.<br /> <br /> No experience or reservations needed. All equipment provided. Ages 18 and older or 12 and older with parent.<br /> <br /> ==================<br /> PS rather than send this to you each week, would it be possible for you to include it in your listings weekly? "
+          },
+          {
+            "count": 7,
+            "item": "Celebrate spring at the SCHOOL OF ACROBATICS & NEW CIRCUS ARTS&#39; Annual Spring Showcase--SASS!<br /> <br /> Each May SANCA presents a showcase of unique, circus-variety performances with students, alumni, staff, and friends of SANCA. For one weekend only, you can see FOUR super exciting circus shows, each featuring a different line up of spectacular local and internationally renowned circus artists alongside SANCA&#39;s tremendously talented student performers.<br /> <br /> With festive musical accompaniment by Doc Sprinsock & the SANCApators, audiences will be treated to daring displays of acrobatics, high-flying aerials, rolling globe ensembles, contortion, juggling, and more!<br /> <br /> Performers include Cirrus Circus, Beth Baker, The Amazing Circus 1-ders, Katie Herndon, Magnificent 7, Lyla Goldman, Laura Miller, Vertical Axis (Amanda Thornton & Nick Perry), Aimee Storm, Alyssa Hellrung & Ava Vermilya, Shade Moon, and Cheya Potter.<br /> Full line-ups coming! "
+          },
+          {
+            "count": 6,
+            "item": "Public running event, occurs monthly. Contact Magnuson Series for cost and event details. Around 200 people are anticipated.  Amplified sound for announcements.  No street or lot closures. Run participants stay on trails and pathways within the park. "
+          },
+          {
+            "count": 5,
+            "item": "The dystopian future is here...The Danger Games: An Improvised Hero&#8217;s Journey makes it&#8217;s world premiere April 22nd. Who will you choose to be your hero? Your suggestions guide our tribute through her hero&#39;s journey: fierce battles, unrequited love, spirited narrative, honest emotions and challenges unknown! Will she survive the odds to save us or will only her sacrifice bring salvation? Inspired by stories such as The Hunger Games and Divergent, this high-energy, improvised play, come to life Fridays and Saturdays at 8:30 through June 11th. "
+          },
+          {
+            "count": 4,
+            "item": "Your suggestions inspire a totally improvised, totally unique show that combines improvised rap and R&B singing, hip-hop dancing and lots of laughter. Trapped in a Black Box: An Improvised Hip Hopera is a high-energy show that marries the best of improv comedy and freestyle rap to tell a hilarious narrative, usually featuring a hero&#39;s rise, fall and redemption, mixed with villains, crimes, betrayals, sex, love and a whole lot of fun. And since it&#39;s all written on the spot, it&#39;s never the same show twice.<br /> <br /> \"...genuinely funny.\"<br /> The Stranger 5/14/2014 "
+          },
+          {
+            "count": 3,
+            "item": "Volunteers are an essential part of the Northwest Folklife Festival! Every year, nearly 800 volunteers staff our entrances, information booths, registration and more to make sure we have the most welcoming community arts Festival in the city. Northwest Folklife depends on volunteers to make the Festival happen.<br /> <br /> Ready for Northwest Folklife 2016? This year, we have more volunteer positions than ever and need your help to make the 45th anniversary of Northwest Folklife the best yet! We rely on you to make YOUR community powered festival happen, so pick up a couple of shifts and join our efforts in supporting multi-cultural community engagement!<br /> <br /> VOLUNTEER APPLICATION: bit.ly/folklifevolunteers<br /> <br /> VOLUNTEER BENEFITS<br /> As a thank you for volunteering your valuable time, volunteers receive:<br /> <br /> A volunteer-only commemorative button<br /> Access to our hospitality area<br /> A discount on merchandise<br /> An invitation to the Saturday Night Participants Party on May 28th<br /> A chance to win amazing prizes as part of our Volunteer Appreciation Program!<br /> And most importantly, this gives you a great chance to give back to your community and meet some amazing people and artists in the process! "
+          },
+          {
+            "count": 2,
+            "item": "Over 50 Classic Yacht Association yachts will be on display in Bell Harbor Marina, set against stunning downtown Seattle, Elliott Bay, and the Olympic Mountains. This event is FREE and open to the public! "
+          },
+          {
+            "count": 1,
+            "item": "Craft fair in Hangar 30. Open to the public to attend. Contact Renegade Craft Fair for details.  Set up Friday, event is Saturday & Sunday 11am-6pm.  Around 1300 people are anticipated each day. Will use the building&#39;s south parking lot to stage part of the event. "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922190,
+      "name": "Sponsoring Organization",
+      "dataTypeName": "text",
+      "description": "Sponsoring Organization",
+      "fieldName": "sponsoring_organization",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 12219384,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2073,
+        "smallest": "1984 ",
+        "null": 1112,
+        "largest": "Zoetic Events LLC ",
+        "top": [
+          {
+            "count": 20,
+            "item": "Northwest African American Museum "
+          },
+          {
+            "count": 19,
+            "item": "University Book Store "
+          },
+          {
+            "count": 18,
+            "item": "Taproot Theatre Company "
+          },
+          {
+            "count": 17,
+            "item": "EverGreen Escapes "
+          },
+          {
+            "count": 16,
+            "item": "SPD Community Outreach "
+          },
+          {
+            "count": 15,
+            "item": " Industry (MOHAI) "
+          },
+          {
+            "count": 14,
+            "item": "Burke Museum "
+          },
+          {
+            "count": 13,
+            "item": "OneWorldNow! "
+          },
+          {
+            "count": 12,
+            "item": "Unexpected Productions "
+          },
+          {
+            "count": 11,
+            "item": "Salsa con Todo "
+          },
+          {
+            "count": 10,
+            "item": "Evolv Fitness of Seattle "
+          },
+          {
+            "count": 9,
+            "item": "Seattle Chinatown International Development Preservation Development Authority "
+          },
+          {
+            "count": 8,
+            "item": "Seattle Animal Shelter Volunteers "
+          },
+          {
+            "count": 7,
+            "item": "UW Botanic Gardens "
+          },
+          {
+            "count": 6,
+            "item": "Green Seattle Partnership "
+          },
+          {
+            "count": 5,
+            "item": " New Circus Arts "
+          },
+          {
+            "count": 4,
+            "item": "Seattle Flying Dragon Boat Club "
+          },
+          {
+            "count": 3,
+            "item": "Magnuson Series "
+          },
+          {
+            "count": 2,
+            "item": "East West Wellness "
+          },
+          {
+            "count": 1,
+            "item": "Port of Seattle "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922191,
+      "name": "Event Contact",
+      "dataTypeName": "text",
+      "description": "Event Contact",
+      "fieldName": "event_contact",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 12219385,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2944,
+        "smallest": "206-632-7218 ",
+        "null": 241,
+        "largest": "Zoe Alexis Scott ",
+        "top": [
+          {
+            "count": 20,
+            "item": "Klondike Gold Rush National Historical Park "
+          },
+          {
+            "count": 19,
+            "item": "Amie Newman "
+          },
+          {
+            "count": 18,
+            "item": "Jalayna Walton "
+          },
+          {
+            "count": 17,
+            "item": "Andrea Godinez "
+          },
+          {
+            "count": 16,
+            "item": "MOHAI "
+          },
+          {
+            "count": 15,
+            "item": "Kirsten Rogers "
+          },
+          {
+            "count": 14,
+            "item": "SIFF Education "
+          },
+          {
+            "count": 13,
+            "item": "Jesseca Brand "
+          },
+          {
+            "count": 12,
+            "item": "UW Botanic Gardens Education "
+          },
+          {
+            "count": 11,
+            "item": "Suzie Gwak "
+          },
+          {
+            "count": 10,
+            "item": "Rio DelMontana "
+          },
+          {
+            "count": 9,
+            "item": "Mario Sanchez "
+          },
+          {
+            "count": 8,
+            "item": "MOHAI Education "
+          },
+          {
+            "count": 7,
+            "item": "Erica Milgate "
+          },
+          {
+            "count": 6,
+            "item": "Unexpected Productions "
+          },
+          {
+            "count": 5,
+            "item": "Gracie Garnet "
+          },
+          {
+            "count": 4,
+            "item": "Matt Nadler "
+          },
+          {
+            "count": 3,
+            "item": "Maia LeDoux "
+          },
+          {
+            "count": 2,
+            "item": "Tahoma Doyon "
+          },
+          {
+            "count": 1,
+            "item": "Kati Davich "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922192,
+      "name": "Event Contact Position/Department",
+      "dataTypeName": "text",
+      "description": "Event Contact Position/Department",
+      "fieldName": "event_contact_position_department",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 12219386,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 36,
+        "smallest": "Seattle Animal Shelter ",
+        "null": 3149,
+        "largest": "Sr. Public Relations Specialist,  Seattle Parks and Recreation ",
+        "top": [
+          {
+            "count": 20,
+            "item": "Seattle Parks and Recreation,  Sr. Public Relations Sp. "
+          },
+          {
+            "count": 19,
+            "item": "Seattle Animal Shelter "
+          },
+          {
+            "count": 18,
+            "item": "Sr. Public Relations Specialist,  Seattle Parks and Recreation "
+          },
+          {
+            "count": 17,
+            "item": "Seattle Parks and Recreation "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922193,
+      "name": "Event Contact Phone",
+      "dataTypeName": "text",
+      "description": "Event Contact Phone",
+      "fieldName": "event_contact_phone",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 12219387,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2336,
+        "smallest": "(206) 233-2044 ",
+        "null": 849,
+        "largest": "877-774-2992 ",
+        "top": [
+          {
+            "count": 20,
+            "item": "2065186000 "
+          },
+          {
+            "count": 19,
+            "item": "206-616-7538 "
+          },
+          {
+            "count": 18,
+            "item": "206-324-1126 "
+          },
+          {
+            "count": 17,
+            "item": "2062237703 "
+          },
+          {
+            "count": 16,
+            "item": "206.464.5830 "
+          },
+          {
+            "count": 15,
+            "item": "206-957-4649 "
+          },
+          {
+            "count": 14,
+            "item": "(206) 684-0182 "
+          },
+          {
+            "count": 13,
+            "item": "206-733-9982 "
+          },
+          {
+            "count": 12,
+            "item": "206-386-7387 "
+          },
+          {
+            "count": 11,
+            "item": "206-838-8718 "
+          },
+          {
+            "count": 10,
+            "item": "206-685-8033 "
+          },
+          {
+            "count": 9,
+            "item": "206-587-5737 "
+          },
+          {
+            "count": 8,
+            "item": "(206) 417-9904 "
+          },
+          {
+            "count": 7,
+            "item": "206-322-9296 ext 225 "
+          },
+          {
+            "count": 6,
+            "item": "206-633-0451 x102 "
+          },
+          {
+            "count": 5,
+            "item": "206 782 7617 "
+          },
+          {
+            "count": 4,
+            "item": "(206) 733-9421 "
+          },
+          {
+            "count": 3,
+            "item": "6318078180 "
+          },
+          {
+            "count": 2,
+            "item": "206-402-2945 "
+          },
+          {
+            "count": 1,
+            "item": "206-471-4178 "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922194,
+      "name": "Event Contact Email",
+      "dataTypeName": "text",
+      "description": "Event Contact Email",
+      "fieldName": "event_contact_email",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 12219388,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2476,
+        "smallest": "21pilotstournet@gmail.com",
+        "null": 709,
+        "largest": "zascott@seattlepublictheater.org",
+        "top": [
+          {
+            "count": 20,
+            "item": "info@naamnw.org"
+          },
+          {
+            "count": 19,
+            "item": "burkepr@uw.edu"
+          },
+          {
+            "count": 18,
+            "item": "information@mohai.org"
+          },
+          {
+            "count": 17,
+            "item": "kirsten@oneworldnow.org"
+          },
+          {
+            "count": 16,
+            "item": "education@siff.net"
+          },
+          {
+            "count": 15,
+            "item": "events@elcentrodelaraza.org"
+          },
+          {
+            "count": 14,
+            "item": "Jesseca.Brand@seattle.gov"
+          },
+          {
+            "count": 13,
+            "item": "uwbgeduc@uw.edu"
+          },
+          {
+            "count": 12,
+            "item": "petermason065@gmail.com"
+          },
+          {
+            "count": 11,
+            "item": "mentor@yougrowgirl.org"
+          },
+          {
+            "count": 10,
+            "item": "rhondagoebel@yahoo.com"
+          },
+          {
+            "count": 9,
+            "item": "lizzystone@seattletilth.org"
+          },
+          {
+            "count": 8,
+            "item": "l.j.mcelvain@gmail.com"
+          },
+          {
+            "count": 7,
+            "item": "kelly@earthcorps.org"
+          },
+          {
+            "count": 6,
+            "item": "kirsten@oneworldnow.ord"
+          },
+          {
+            "count": 5,
+            "item": "crwprograms@seattle.gov"
+          },
+          {
+            "count": 4,
+            "item": "jenny.frankl@seattle.gov"
+          },
+          {
+            "count": 3,
+            "item": "education@mohai.org"
+          },
+          {
+            "count": 2,
+            "item": "salsatodo@gmail.com"
+          },
+          {
+            "count": 1,
+            "item": "doesliveart@gmail.com"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922195,
+      "name": "Street Address",
+      "dataTypeName": "text",
+      "description": "Street Address",
+      "fieldName": "street_address",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 12219389,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 3090,
+        "smallest": "<img src=\"http://www.trumba.com/i/DgAQnftRAjSlWpsMQmzN%2Adpl.jpg\" width=\"320\" height=\"480\" /",
+        "null": 95,
+        "largest": "Washington Ave NW",
+        "top": [
+          {
+            "count": 20,
+            "item": "319 2nd Ave S"
+          },
+          {
+            "count": 19,
+            "item": "2300 S Massachusetts St"
+          },
+          {
+            "count": 18,
+            "item": "1010 Western Ave"
+          },
+          {
+            "count": 17,
+            "item": "220 2nd Ave S"
+          },
+          {
+            "count": 16,
+            "item": "860 Terry Ave N"
+          },
+          {
+            "count": 15,
+            "item": "17th Ave NE & NE 45th St"
+          },
+          {
+            "count": 14,
+            "item": "305 Harrison St"
+          },
+          {
+            "count": 13,
+            "item": "600 Fourth Avenue"
+          },
+          {
+            "count": 12,
+            "item": "Seattle, WA 98104"
+          },
+          {
+            "count": 11,
+            "item": "2300 Arboretum Dr E"
+          },
+          {
+            "count": 10,
+            "item": "2200 Rainier Ave. S. Suite 201"
+          },
+          {
+            "count": 9,
+            "item": "Join us for a restoration work party at Me-Kwa-Mooks - See website for important details on what to bring and where to meet. "
+          },
+          {
+            "count": 8,
+            "item": "2524 16th Ave S"
+          },
+          {
+            "count": 7,
+            "item": "220 2nd Ave N"
+          },
+          {
+            "count": 6,
+            "item": "2960 4th Ave S"
+          },
+          {
+            "count": 5,
+            "item": "4326 University Way NE"
+          },
+          {
+            "count": 4,
+            "item": "1428 Post Alley"
+          },
+          {
+            "count": 3,
+            "item": "950 Westlake Ave. N., "
+          },
+          {
+            "count": 2,
+            "item": "674 S Orcas St"
+          },
+          {
+            "count": 1,
+            "item": "Public running event, occurs monthly. Contact Magnuson Series for cost and event details. Around 200 people are anticipated.  Amplified sound for announcements.  No street or lot closures. Run participants stay on trails and pathways within the park. "
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922196,
+      "name": "Latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "fieldName": "latitude",
+      "position": 13,
+      "renderTypeName": "number",
+      "tableColumnId": 12219390,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2243,
+        "smallest": "47.51859",
+        "sum": "106791.43878",
+        "null": 942,
+        "average": "47.61098474364690",
+        "largest": "47.69353",
+        "top": [
+          {
+            "count": 20,
+            "item": "47.59938"
+          },
+          {
+            "count": 19,
+            "item": "47.58874"
+          },
+          {
+            "count": 18,
+            "item": "47.66024"
+          },
+          {
+            "count": 17,
+            "item": "47.6047"
+          },
+          {
+            "count": 16,
+            "item": "47.60021"
+          },
+          {
+            "count": 15,
+            "item": "47.62759"
+          },
+          {
+            "count": 14,
+            "item": "47.60266"
+          },
+          {
+            "count": 13,
+            "item": "47.62208"
+          },
+          {
+            "count": 12,
+            "item": "47.6085"
+          },
+          {
+            "count": 11,
+            "item": "47.58034"
+          },
+          {
+            "count": 10,
+            "item": "47.60377"
+          },
+          {
+            "count": 9,
+            "item": "47.63837"
+          },
+          {
+            "count": 8,
+            "item": "47.59886"
+          },
+          {
+            "count": 7,
+            "item": "47.61917"
+          },
+          {
+            "count": 6,
+            "item": "47.63918"
+          },
+          {
+            "count": 5,
+            "item": "47.57587"
+          },
+          {
+            "count": 4,
+            "item": "47.54223"
+          },
+          {
+            "count": 3,
+            "item": "47.66822"
+          },
+          {
+            "count": 2,
+            "item": "47.58348"
+          },
+          {
+            "count": 1,
+            "item": "47.65247"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922197,
+      "name": "Longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "fieldName": "longitude",
+      "position": 14,
+      "renderTypeName": "number",
+      "tableColumnId": 12219391,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2243,
+        "smallest": "-122.41182",
+        "sum": "-274378.48682",
+        "null": 942,
+        "average": "-122.3265656798930",
+        "largest": "-122.25627",
+        "top": [
+          {
+            "count": 20,
+            "item": "-122.33197"
+          },
+          {
+            "count": 19,
+            "item": "-122.30185"
+          },
+          {
+            "count": 18,
+            "item": "-122.31278"
+          },
+          {
+            "count": 17,
+            "item": "-122.33739"
+          },
+          {
+            "count": 16,
+            "item": "-122.33108"
+          },
+          {
+            "count": 15,
+            "item": "-122.33661"
+          },
+          {
+            "count": 14,
+            "item": "-122.33332"
+          },
+          {
+            "count": 13,
+            "item": "-122.35398"
+          },
+          {
+            "count": 12,
+            "item": "-122.34017"
+          },
+          {
+            "count": 11,
+            "item": "-122.31132"
+          },
+          {
+            "count": 10,
+            "item": "-122.32971"
+          },
+          {
+            "count": 9,
+            "item": "-122.37654"
+          },
+          {
+            "count": 8,
+            "item": "-122.32544"
+          },
+          {
+            "count": 7,
+            "item": "-122.34192"
+          },
+          {
+            "count": 6,
+            "item": "-122.29432"
+          },
+          {
+            "count": 5,
+            "item": "-122.32789"
+          },
+          {
+            "count": 4,
+            "item": "-122.27306"
+          },
+          {
+            "count": 3,
+            "item": "-122.39372"
+          },
+          {
+            "count": 2,
+            "item": "-122.35609"
+          },
+          {
+            "count": 1,
+            "item": "-122.30169"
+          }
+        ]
+      },
+      "format": {}
+    },
+    {
+      "id": 254922198,
+      "name": "Location",
+      "dataTypeName": "location",
+      "description": "Location",
+      "fieldName": "location",
+      "position": 15,
+      "renderTypeName": "location",
+      "tableColumnId": 12219392,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 2243,
+        "smallest": {
+          "longitude": "-122.3298",
+          "latitude": "47.60113"
+        },
+        "null": 942,
+        "largest": {
+          "longitude": "-122.32789",
+          "latitude": "47.57587"
+        },
+        "top": [
+          {
+            "count": 20,
+            "item": {
+              "longitude": "-122.33197",
+              "latitude": "47.59938"
+            }
+          },
+          {
+            "count": 19,
+            "item": {
+              "longitude": "-122.30185",
+              "latitude": "47.58874"
+            }
+          },
+          {
+            "count": 18,
+            "item": {
+              "longitude": "-122.31278",
+              "latitude": "47.66024"
+            }
+          },
+          {
+            "count": 17,
+            "item": {
+              "longitude": "-122.33739",
+              "latitude": "47.6047"
+            }
+          },
+          {
+            "count": 16,
+            "item": {
+              "longitude": "-122.33108",
+              "latitude": "47.60021"
+            }
+          },
+          {
+            "count": 15,
+            "item": {
+              "longitude": "-122.33661",
+              "latitude": "47.62759"
+            }
+          },
+          {
+            "count": 14,
+            "item": {
+              "longitude": "-122.33332",
+              "latitude": "47.60266"
+            }
+          },
+          {
+            "count": 13,
+            "item": {
+              "longitude": "-122.35398",
+              "latitude": "47.62208"
+            }
+          },
+          {
+            "count": 12,
+            "item": {
+              "longitude": "-122.34017",
+              "latitude": "47.6085"
+            }
+          },
+          {
+            "count": 11,
+            "item": {
+              "longitude": "-122.31132",
+              "latitude": "47.58034"
+            }
+          },
+          {
+            "count": 10,
+            "item": {
+              "longitude": "-122.32971",
+              "latitude": "47.60377"
+            }
+          },
+          {
+            "count": 9,
+            "item": {
+              "longitude": "-122.37654",
+              "latitude": "47.63837"
+            }
+          },
+          {
+            "count": 8,
+            "item": {
+              "longitude": "-122.32544",
+              "latitude": "47.59886"
+            }
+          },
+          {
+            "count": 7,
+            "item": {
+              "longitude": "-122.34192",
+              "latitude": "47.61917"
+            }
+          },
+          {
+            "count": 6,
+            "item": {
+              "longitude": "-122.29432",
+              "latitude": "47.63918"
+            }
+          },
+          {
+            "count": 5,
+            "item": {
+              "longitude": "-122.32789",
+              "latitude": "47.57587"
+            }
+          },
+          {
+            "count": 4,
+            "item": {
+              "longitude": "-122.27306",
+              "latitude": "47.54223"
+            }
+          },
+          {
+            "count": 3,
+            "item": {
+              "longitude": "-122.39372",
+              "latitude": "47.66822"
+            }
+          },
+          {
+            "count": 2,
+            "item": {
+              "longitude": "-122.30169",
+              "latitude": "47.58348"
+            }
+          },
+          {
+            "count": 1,
+            "item": {
+              "longitude": "-122.35609",
+              "latitude": "47.65247"
+            }
+          }
+        ]
+      },
+      "format": {},
+      "subColumnTypes": [
+        "human_address",
+        "latitude",
+        "longitude",
+        "machine_address",
+        "needs_recoding"
+      ]
+    },
+    {
+      "id": 254922199,
+      "name": "Event Info Url",
+      "dataTypeName": "url",
+      "description": "Event Info Url",
+      "fieldName": "event_info_url",
+      "position": 16,
+      "renderTypeName": "url",
+      "tableColumnId": 12219393,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 3185,
+        "smallest": {
+          "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d111420256"
+        },
+        "null": 0,
+        "largest": {
+          "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d93456211"
+        },
+        "top": [
+          {
+            "count": 20,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118879303"
+            }
+          },
+          {
+            "count": 19,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d115602941"
+            }
+          },
+          {
+            "count": 18,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117567254"
+            }
+          },
+          {
+            "count": 17,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d116319452"
+            }
+          },
+          {
+            "count": 16,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118118605"
+            }
+          },
+          {
+            "count": 15,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117567255"
+            }
+          },
+          {
+            "count": 14,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118118609"
+            }
+          },
+          {
+            "count": 13,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d115602942"
+            }
+          },
+          {
+            "count": 12,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117567256"
+            }
+          },
+          {
+            "count": 11,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117567257"
+            }
+          },
+          {
+            "count": 10,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118580163"
+            }
+          },
+          {
+            "count": 9,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118580162"
+            }
+          },
+          {
+            "count": 8,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d115602943"
+            }
+          },
+          {
+            "count": 7,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117567258"
+            }
+          },
+          {
+            "count": 6,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117266959"
+            }
+          },
+          {
+            "count": 5,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117266961"
+            }
+          },
+          {
+            "count": 4,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d117266963"
+            }
+          },
+          {
+            "count": 3,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d118852236"
+            }
+          },
+          {
+            "count": 2,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d115602944"
+            }
+          },
+          {
+            "count": 1,
+            "item": {
+              "url": "http://www.seattle.gov/living-in-seattle/event-calendar?trumbaEmbed=view%3devent%26eventid%3d115602945"
+            }
+          }
+        ]
+      },
+      "format": {},
+      "subColumnTypes": [
+        "url",
+        "description"
+      ]
+    },
+    {
+      "id": 254922200,
+      "name": "Classification",
+      "dataTypeName": "text",
+      "description": "General Topical Area",
+      "fieldName": "classification",
+      "position": 17,
+      "renderTypeName": "text",
+      "tableColumnId": 12219394,
+      "width": 100,
+      "cachedContents": {
+        "non_null": 3185,
+        "smallest": "art",
+        "null": 0,
+        "largest": "special",
+        "top": [
+          {
+            "count": 20,
+            "item": "art"
+          },
+          {
+            "count": 19,
+            "item": "business"
+          },
+          {
+            "count": 18,
+            "item": "civic"
+          },
+          {
+            "count": 17,
+            "item": "community"
+          },
+          {
+            "count": 16,
+            "item": "education"
+          },
+          {
+            "count": 15,
+            "item": "other"
+          },
+          {
+            "count": 14,
+            "item": "recreation"
+          },
+          {
+            "count": 13,
+            "item": "special"
+          }
+        ]
+      },
+      "format": {}
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "metadata": {
+    "renderTypeConfig": {
+      "visible": {
+        "table": true
+      }
+    },
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "pfbu-yuv5",
+    "displayName": "Seattle IT",
+    "profileImageUrlLarge": "/api/users/pfbu-yuv5/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/pfbu-yuv5/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/pfbu-yuv5/profile_images/TINY",
+    "roleName": "administrator",
+    "screenName": "Seattle IT",
+    "rights": [
+      "create_datasets",
+      "edit_others_datasets",
+      "edit_sdp",
+      "edit_site_theme",
+      "moderate_comments",
+      "manage_users",
+      "chown_datasets",
+      "edit_nominations",
+      "approve_nominations",
+      "feature_items",
+      "federations",
+      "manage_stories",
+      "manage_approval",
+      "change_configurations",
+      "view_domain",
+      "view_others_datasets",
+      "edit_pages",
+      "create_pages",
+      "view_goals",
+      "view_dashboards",
+      "edit_goals",
+      "edit_dashboards",
+      "create_dashboards",
+      "manage_provenance",
+      "create_story",
+      "edit_story_title_desc",
+      "create_story_copy",
+      "delete_story",
+      "manage_story_collaborators",
+      "manage_story_visibility",
+      "manage_story_public_version",
+      "edit_story",
+      "view_unpublished_story",
+      "view_story",
+      "view_all_dataset_status_logs"
+    ]
+  },
+  "query": {
+    "orderBys": [
+      {
+        "ascending": true,
+        "expression": {
+          "columnId": 254922185,
+          "type": "column"
+        }
+      }
+    ]
+  },
+  "rights": [
+    "read"
+  ],
+  "sortBys": [
+    {
+      "id": 0,
+      "viewColumnId": 254922185,
+      "flags": [
+        "asc"
+      ]
+    }
+  ],
+  "tableAuthor": {
+    "id": "pfbu-yuv5",
+    "displayName": "Seattle IT",
+    "profileImageUrlLarge": "/api/users/pfbu-yuv5/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/pfbu-yuv5/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/pfbu-yuv5/profile_images/TINY",
+    "roleName": "administrator",
+    "screenName": "Seattle IT",
+    "rights": [
+      "create_datasets",
+      "edit_others_datasets",
+      "edit_sdp",
+      "edit_site_theme",
+      "moderate_comments",
+      "manage_users",
+      "chown_datasets",
+      "edit_nominations",
+      "approve_nominations",
+      "feature_items",
+      "federations",
+      "manage_stories",
+      "manage_approval",
+      "change_configurations",
+      "view_domain",
+      "view_others_datasets",
+      "edit_pages",
+      "create_pages",
+      "view_goals",
+      "view_dashboards",
+      "edit_goals",
+      "edit_dashboards",
+      "create_dashboards",
+      "manage_provenance",
+      "create_story",
+      "edit_story_title_desc",
+      "create_story_copy",
+      "delete_story",
+      "manage_story_collaborators",
+      "manage_story_visibility",
+      "manage_story_public_version",
+      "edit_story",
+      "view_unpublished_story",
+      "view_story",
+      "view_all_dataset_status_logs"
+    ]
+  },
+  "flags": [
+    "default"
+  ]
+}

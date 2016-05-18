@@ -1,0 +1,380 @@
+{
+  "name": "City of Seattle Events",
+  "updatedAt": "2016-05-15T08:44:06.000Z",
+  "defaultPage": "sew9-i83k",
+  "description": "",
+  "domain": "data.seattle.gov",
+  "rowDisplayUnit": "rows",
+  "locale": "en_US",
+  "id": "kjqu-s8f9",
+  "columns": {
+    "location_state": {
+      "name": "Location (state)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    "website": {
+      "name": "Website",
+      "fred": "text",
+      "description": "Website",
+      "cardinality": 410,
+      "physicalDatatype": "text",
+      "position": 5,
+      "format": {},
+      "dataTypeName": "url",
+      "renderTypeName": "url",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "location_zip": {
+      "name": "Location (zip)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    ":version": {
+      "description": "",
+      "fred": "text",
+      "name": ":version",
+      "physicalDatatype": "row_version",
+      "isSubcolumn": false
+    },
+    "start_time": {
+      "name": "Start time",
+      "fred": "text",
+      "description": "Start time",
+      "cardinality": 1116,
+      "physicalDatatype": "floating_timestamp",
+      "position": 2,
+      "format": {},
+      "dataTypeName": "calendar_date",
+      "renderTypeName": "calendar_date",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "location": {
+      "name": "Location",
+      "fred": "text",
+      "description": "Location",
+      "cardinality": 140,
+      "physicalDatatype": "point",
+      "position": 15,
+      "format": {},
+      "dataTypeName": "location",
+      "renderTypeName": "location",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "latitude": {
+      "name": "Latitude",
+      "fred": "text",
+      "description": "Latitude",
+      "cardinality": 142,
+      "physicalDatatype": "number",
+      "position": 13,
+      "format": {},
+      "dataTypeName": "number",
+      "renderTypeName": "number",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    ":created_at": {
+      "description": "",
+      "fred": "text",
+      "name": ":created_at",
+      "physicalDatatype": "fixed_timestamp",
+      "isSubcolumn": false
+    },
+    "event": {
+      "name": "Event",
+      "fred": "text",
+      "description": "Event",
+      "cardinality": 450,
+      "physicalDatatype": "text",
+      "position": 1,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "sponsoring_organization": {
+      "name": "Sponsoring Organization",
+      "fred": "text",
+      "description": "Sponsoring Organization",
+      "cardinality": 158,
+      "physicalDatatype": "text",
+      "position": 7,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "location_address": {
+      "name": "Location (address)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    "event_contact": {
+      "name": "Event Contact",
+      "fred": "text",
+      "description": "Event Contact",
+      "cardinality": 244,
+      "physicalDatatype": "text",
+      "position": 8,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "location_city": {
+      "name": "Location (city)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    "building_name_room_number": {
+      "name": "Building Name/Room Number",
+      "fred": "text",
+      "description": "Building Name/Room Number",
+      "cardinality": 82,
+      "physicalDatatype": "text",
+      "position": 4,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "event_contact_email": {
+      "name": "Event Contact Email",
+      "fred": "text",
+      "description": "Event Contact Email",
+      "cardinality": 170,
+      "physicalDatatype": "text",
+      "position": 11,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "end_time": {
+      "name": "End time",
+      "fred": "text",
+      "description": "End time",
+      "cardinality": 964,
+      "physicalDatatype": "floating_timestamp",
+      "position": 3,
+      "format": {},
+      "dataTypeName": "calendar_date",
+      "renderTypeName": "calendar_date",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "longitude": {
+      "name": "Longitude",
+      "fred": "text",
+      "description": "Longitude",
+      "cardinality": 136,
+      "physicalDatatype": "number",
+      "position": 14,
+      "format": {},
+      "dataTypeName": "number",
+      "renderTypeName": "number",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    ":@computed_region_cyqu_gs94": {
+      "name": "City Council Districts",
+      "fred": "text",
+      "description": "",
+      "computationStrategy": {
+        "strategy_type": "georegion_match_on_point",
+        "source_columns": [
+          "location"
+        ],
+        "parameters": {
+          "region": "_cyqu-gs94"
+        }
+      },
+      "physicalDatatype": "number",
+      "isSubcolumn": false
+    },
+    "website_description": {
+      "name": "Website (description)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    "event_contact_phone": {
+      "name": "Event Contact Phone",
+      "fred": "text",
+      "description": "Event Contact Phone",
+      "cardinality": 164,
+      "physicalDatatype": "text",
+      "position": 10,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "event_description_agenda": {
+      "name": "Event Description/Agenda",
+      "fred": "text",
+      "description": "Event Description/Agenda",
+      "cardinality": 336,
+      "physicalDatatype": "text",
+      "position": 6,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "event_contact_position_department": {
+      "name": "Event Contact Position/Department",
+      "fred": "text",
+      "description": "Event Contact Position/Department",
+      "cardinality": 5,
+      "physicalDatatype": "text",
+      "position": 9,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    ":@computed_region_2day_rhn5": {
+      "name": "2010 Census Tracts",
+      "fred": "text",
+      "description": "",
+      "computationStrategy": {
+        "strategy_type": "georegion_match_on_point",
+        "source_columns": [
+          "location"
+        ],
+        "parameters": {
+          "region": "_2day-rhn5"
+        }
+      },
+      "physicalDatatype": "number",
+      "isSubcolumn": false
+    },
+    "event_info_url_description": {
+      "name": "Event Info Url (description)",
+      "fred": "text",
+      "description": "",
+      "cardinality": 1,
+      "physicalDatatype": "text",
+      "isSubcolumn": true
+    },
+    ":updated_at": {
+      "description": "",
+      "fred": "text",
+      "name": ":updated_at",
+      "physicalDatatype": "fixed_timestamp",
+      "isSubcolumn": false
+    },
+    "classification": {
+      "name": "Classification",
+      "fred": "text",
+      "description": "General Topical Area",
+      "cardinality": 8,
+      "physicalDatatype": "text",
+      "position": 17,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    "street_address": {
+      "name": "Street Address",
+      "fred": "text",
+      "description": "Street Address",
+      "cardinality": 261,
+      "physicalDatatype": "text",
+      "position": 12,
+      "format": {},
+      "dataTypeName": "text",
+      "renderTypeName": "text",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    ":id": {
+      "description": "",
+      "fred": "text",
+      "name": ":id",
+      "physicalDatatype": "row_identifier",
+      "isSubcolumn": false
+    },
+    "event_info_url": {
+      "name": "Event Info Url",
+      "fred": "text",
+      "description": "Event Info Url",
+      "cardinality": 1677,
+      "physicalDatatype": "text",
+      "position": 16,
+      "format": {},
+      "dataTypeName": "url",
+      "renderTypeName": "url",
+      "hideInTable": false,
+      "isSubcolumn": false
+    },
+    ":@computed_region_q256_3sug": {
+      "name": "Zip Codes",
+      "fred": "text",
+      "description": "",
+      "computationStrategy": {
+        "strategy_type": "georegion_match_on_point",
+        "source_columns": [
+          "location"
+        ],
+        "parameters": {
+          "region": "_q256-3sug"
+        }
+      },
+      "physicalDatatype": "number",
+      "isSubcolumn": false
+    },
+    ":@computed_region_kuhn_3gp2": {
+      "name": "SPD Beats",
+      "fred": "text",
+      "description": "",
+      "computationStrategy": {
+        "strategy_type": "georegion_match_on_point",
+        "source_columns": [
+          "location"
+        ],
+        "parameters": {
+          "region": "_kuhn-3gp2"
+        }
+      },
+      "physicalDatatype": "number",
+      "isSubcolumn": false
+    }
+  },
+  "ownerId": "pfbu-yuv5",
+  "permissions": {
+    "isPublic": true,
+    "rights": [
+      "read"
+    ]
+  }
+}
